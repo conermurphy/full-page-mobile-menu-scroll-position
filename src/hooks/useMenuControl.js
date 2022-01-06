@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function useMenuControl() {
   // State to record if the menu is open
@@ -7,7 +7,7 @@ export default function useMenuControl() {
   // Click handler for opening and closing the menu
   const clickHandler = () => setMenuOpen(!isMenuOpen);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     // Get original body overflow style so we can revert to it later on
     const originalStyle = window.getComputedStyle(document.body).overflow;
 

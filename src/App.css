@@ -4,7 +4,6 @@
 
 .filler {
   height: 300vw;
-  position: relative;
 }
 
 .fixed {
@@ -14,5 +13,9 @@
   top: 50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
+}
+
+.fixed > * {
+  margin: 0;
 }

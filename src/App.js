@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
       <p className="filler" />
       <div className="fixed">
         <p>Current Scroll Position:</p>
+        <Nav />
         <p>{scrollValue}px</p>
       </div>
     </div>

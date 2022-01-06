@@ -1,21 +1,16 @@
-.navContainer {
+.menuOpen {
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 100%;
-  width: 100%;
   z-index: 10;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-}
-
-.menuOpen {
-  top: 25%;
   background-color: white;
-  opacity: 0.75;
+  opacity: 1;
+  height: 100vh;
+  width: 100vw;
 }

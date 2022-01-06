@@ -5,7 +5,7 @@ export default function Nav() {
   const { isMenuOpen, clickHandler } = useMenuControl();
 
   return (
-    <nav className={`navContainer ${isMenuOpen ? 'menuOpen' : ''}`}>
+    <nav className={`${isMenuOpen ? 'menuOpen' : ''}`}>
       {!isMenuOpen ? (
         <button type="button" onClick={clickHandler}>
           Open Menu
